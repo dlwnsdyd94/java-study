@@ -1,4 +1,4 @@
-package chapter03;
+package com.bit2020.chapter03;
 
 public class Goods {
 	private String name;
@@ -7,9 +7,21 @@ public class Goods {
 	private int countSold;
 	
 	public static int countofGoods = 0;
-	
+
 	public Goods() {
-		countofGoods++; 
+		countofGoods++;
+	}
+	
+	public Goods(String name, int price, int countStock, int countSold) {
+		this(name, price);
+		this.countStock = countStock;
+		this.countSold = countSold;
+	}
+	
+	public Goods(String name, int price) {
+		this();
+		this.name = name;
+		this.price = price;
 	}
 	
 	public String getName() {
