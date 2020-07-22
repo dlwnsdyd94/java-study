@@ -1,4 +1,4 @@
-package chapter03.tv;
+package com.bit2020.chapter03.tv;
 
 public class WatchTV {
 

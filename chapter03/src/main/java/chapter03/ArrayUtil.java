@@ -1,4 +1,4 @@
-package chapter03;
+package com.bit2020.chapter03;
 
 public class ArrayUtil {
 	// int 배열을 double 배열로 변환
