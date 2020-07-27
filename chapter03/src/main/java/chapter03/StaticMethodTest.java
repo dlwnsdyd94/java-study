@@ -1,4 +1,4 @@
-package com.bit2020.chapter03;
+package chapter03;
 
 public class StaticMethodTest {
 

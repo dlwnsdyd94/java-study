@@ -1,4 +1,4 @@
-package com.bit2020.chapter03.paint;
+package chapter03.paint;
 
 public class GraphicText implements Drawable {
 	private String text;

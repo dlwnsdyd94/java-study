@@ -1,4 +1,4 @@
-package com.bit2020.chapter03.tv;
+package chapter03.tv;
 
 public class TV {
 	private int channel;
